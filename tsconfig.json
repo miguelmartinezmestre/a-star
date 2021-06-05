@@ -7,11 +7,13 @@
     "sourceMap": true,
     "allowJs": true,
     "strict": true,
+    "strictNullChecks": false,
     "moduleResolution": "Node",
     "module": "ESNext",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noImplicitAny": false
   },
-  "exclude": ["node_modules","./node_modules/@types/*"],
+  "exclude": ["node_modules", "./node_modules/@types/*"],
   "types": ["node"],
   "include": ["./src/**/*"]
 }

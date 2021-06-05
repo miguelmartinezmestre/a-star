@@ -1,6 +1,6 @@
-import {Configuration} from "webpack";
+import { Configuration } from "webpack";
 import path from "path";
-import {CheckerPlugin} from "awesome-typescript-loader";
+import { CheckerPlugin } from "awesome-typescript-loader";
 
 const config: Configuration = {
   mode: "development",

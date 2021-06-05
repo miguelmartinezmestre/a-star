@@ -1,6 +1,6 @@
 import path from "path";
-import {Configuration} from "webpack";
-import {CheckerPlugin} from "awesome-typescript-loader";
+import { Configuration } from "webpack";
+import { CheckerPlugin } from "awesome-typescript-loader";
 const WebpackObfuscator = require("webpack-obfuscator");
 
 const config: Configuration = {
