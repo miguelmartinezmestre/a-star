@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./public",
+    "lib": ["ES2020", "dom"],
+    "esModuleInterop": true,
+    "target": "ES2020",
+    "sourceMap": true,
+    "allowJs": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules","./node_modules/@types/*"],
+  "types": ["node"],
+  "include": ["./src/**/*"]
+}
